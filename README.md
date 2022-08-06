@@ -16,6 +16,44 @@ Header/Navbar - #H1: Logo
 ##H2, ul, li-Home, li-About, li-Contact
 Footer - ##H5, ul, li-i class x3 - font awesome icons - socials 
 
+Images will be taken from Unsplash.com and or istockphoto.com 
+
+
+
+-------------------------------------------------------------Bugs & Fixes
+
+Hamburger menu button - not working on small screens. Not including JavaScript, so put nav-links into left & right sections so they're easy to see for all users.
+
+
+-------------------------------------------------- README layout for future 
+
+
+
+-----------------STRATEGY-------------
+
+
+
+
+
+-----------------SCOPE---------------
+
+
+
+
+-----------------STRUCTURE-------------
+
+
+
+
+
+-----------------SKELETON-------------
+
+
+
+
+
+-----------------SURFACE-------------
+
 
 
 
