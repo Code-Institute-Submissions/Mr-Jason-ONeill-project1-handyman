@@ -1,3 +1,86 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
 /* -------------------------- Colors ---------------------*/
+
+
+
+
+/* -------------------- Navbar ---------------- */
+
+.logo {
+    font-size: 32px;
+    font-family: "Roboto" sans-serif;
+}
+
+.nav-item {
+    font-size: 24px;
+}
+
+
+
+/* -------------------- Footer ---------------- */
+
+h5 {
+    font-size: 24px;
+    font-family: "Roboto" sans-serif;
+    color: #fff;
+}
+
+.inline-block {
+    font-size: 22px;
+    color: gold;
+    text-align: center;
+}
+
+.fa {
+    color: #fff;
+    font-size: 22px;
+}
+
+.fa:hover {
+    color: gold;
+}
+
+.general-sub {
+    text-align: center;
+}
+
+.list-inline {
+    text-align: center;
+}
+
+/* -------------------- Main section ---------------- */
+
+.section-heading {
+    justify-content: center;
+    text-align: center;
+}
+
+.section-column {
+    margin-left: 15px;
+
+}
+
+.main-section {
+    background: url(https://images.unsplash.com/photo-1508873535684-277a3cbcc4e8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8dG9vbHN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* ---------------- Cards -------------------- */
+
+.card-header {
+    border: 1px solid lightgrey;
+    font-size: large;
+    font-weight: bold;
+    font-family: "Montserrat", serif;
+  }
+  
+  .card-body {
+    border: 1px solid lightgrey;
+  }
+
+  .card-body {
+    text-align: center;
+  }
