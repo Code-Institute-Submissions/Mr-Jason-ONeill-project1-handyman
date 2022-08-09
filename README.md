@@ -24,7 +24,7 @@ Images will be taken from Unsplash.com and or istockphoto.com
 
 Hamburger menu button - not working on small screens. Not including JavaScript, so put nav-links into left & right sections so they're easy to see for all users.
 
-
+img-cards on the right to be placed under text on smaller screens. Inspecting code, suggests removing = .card-img-top { width:100; } has been removed, still not working.
 -------------------------------------------------- README layout for future 
 
 
@@ -56,15 +56,3 @@ Hamburger menu button - not working on small screens. Not including JavaScript, 
 
 
 
-
-
-
-
-
-
-
-
-
--------------------------------------------------------------Bugs & Fixes
-
-Hamburger menu button - not working on small screens. 
