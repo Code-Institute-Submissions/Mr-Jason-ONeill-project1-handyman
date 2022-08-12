@@ -1,7 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
 
 /* -------------------------- Colors ---------------------*/
-
+/* #fff;
+gold;
+lightgrey;
+darkslategrey;
+*/
 
 
 
@@ -61,6 +67,10 @@ h5 {
 
 }
 
+.section-text {
+    color: gold;
+}
+
 .main-section {
     background: url(https://images.unsplash.com/photo-1508873535684-277a3cbcc4e8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8dG9vbHN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
     background-repeat: no-repeat;
@@ -69,6 +79,11 @@ h5 {
 
 
 /* ---------------- Cards -------------------- */
+
+.card {
+    background-color: darkslategrey;
+    width: 100%;
+}
 
 .card-header {
     border: 1px solid lightgrey;
@@ -83,4 +98,21 @@ h5 {
 
   .card-body {
     text-align: center;
+  }
+
+  .card-text {
+    color: gold;
+  }
+
+  .pricing {
+    color: #fff;
+    text-align: center;
+  }
+
+  details {
+    color: gold;
+  }
+
+  details:hover {
+    cursor: pointer;
   }

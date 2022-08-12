@@ -1,7 +1,6 @@
 # Project1-Handyman
 Only using HTML, CSS and Bootstrap
 -----------------------------------------------------------------------------
-
 Decided to build a website that will advertise side jobs that I can do in my spare time.
 Index page - nav bar containing 'About Me', 'Contact', 'List of Jobs'(Possibly add a drop down list that will take user to sub-sections)
 
@@ -24,7 +23,10 @@ Images will be taken from Unsplash.com and or istockphoto.com
 
 Hamburger menu button - not working on small screens. Not including JavaScript, so put nav-links into left & right sections so they're easy to see for all users.
 
-img-cards on the right to be placed under text on smaller screens. Inspecting code, suggests removing = .card-img-top { width:100; } has been removed, still not working.
+img-cards on the right to be placed under text on smaller screens. Inspecting code, suggests removing = .card-img-top { width:100; } has been removed, still not working. 
+Changed layout of website, each section is now in a block style rather than grid, as it is more appealing on each screen size.
+
+Footer on contact page, not sitting at the bottom of the page, creating whitespace underneath, code is identical to other pages, not sure of the issue.
 -------------------------------------------------- README layout for future 
 
 
@@ -53,6 +55,8 @@ img-cards on the right to be placed under text on smaller screens. Inspecting co
 
 
 -----------------SURFACE-------------
+
+
 
 
 
