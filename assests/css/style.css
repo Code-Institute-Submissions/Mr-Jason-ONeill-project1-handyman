@@ -77,6 +77,14 @@ h5 {
     background-size: cover;
 }
 
+.work-details {
+  background-color: darkslategrey;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+  opacity: 0.8;
+
+}
 
 /* ---------------- Cards -------------------- */
 
@@ -116,3 +124,23 @@ h5 {
   details:hover {
     cursor: pointer;
   }
+
+  .job-card {
+    background-color: darkslategrey;
+    opacity: .7;
+  }
+
+
+/* ------------------- Form ----------------- */
+
+fieldset {
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  line-height: 1.5;
+}
+
+textarea {
+  width: 100%;
+  height: 350px;
+}

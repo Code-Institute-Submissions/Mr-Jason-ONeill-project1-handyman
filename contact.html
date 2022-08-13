@@ -45,24 +45,33 @@
         <div class="row">
           <div class="col col-sm-8">
             <h3 class="section-heading uppercase">Enquire<span class="sr-only">Enquire</span></h3>
-            <h4 class="left-section-heading uppercase">Form<span class="sr-only">Form</span></h4>
-            <p>
-              Add form to the left, include their details and text area with submit button.
-            </p>
-            <hr>
-            <h4 class="left-section-heading uppercase">Company Details<span class="sr-only">Company Details</span></h4>
-            <p>
-              Address, phone/fax number, location. (Add iframe)
-            </p>
+            <form method="post">
+              <fieldset>
+                <legend>Your Details</legend>
+              <input type="text" id="fName" name="fName" placeholder="First Name">
+              <br>
+              <input type="text" id="lName" name="lName" placeholder="Last Name">
+              <br>
+              <input type="email" id="email" name="email" placeholder="youremail@example.com">
+              <br>
+              <textarea id="enquire" name="enquire" placeholder="Please write your enquiry here."></textarea>
+              <br>
+              <input type="submit" value="Submit" class="btn btn-outline-warning btn-lg"></button>
+              <br>
+
+            </fieldset>
+              
+            </form>
           </div>
             <div class="col col-sm-4">
-              <h3 class="section-heading uppercase">Find Us<span class="sr-only">About Us</span></h3>
-              <div style="width: 100%"><iframe frameborder="0" marginheight="0" marginwidth="0" 
+              <div class="work-details">
+                <h3 class="section-heading uppercase">Find Us<span class="sr-only">About Us</span></h3>
+                <iframe frameborder="0" marginheight="0" marginwidth="0" 
                 src="https://maps.google.com/maps?hl=en&amp;q=Cosheston%20Road,%20Cardiff,%20CF5%203NQ,%20United%20Kingdom+(Handman)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
-              </iframe></div>
-              <hr>
-              <h4 class="mid-section-heading uppercase">Our HeadQuaters</h4>
-              <p class="section-text">
+                </iframe>
+                <hr>
+                <h4 class="mid-section-heading uppercase">Our HeadQuaters</h4>
+                <p class="section-text">
                 Address: Cosheston Road,
                 <br>
                 Postcode: CF5 3NQ
@@ -70,10 +79,10 @@
                 Telephone: 07454 348 115
                 <br>
                 Email: handyman@example.com
-              </p>
-            </div>
-          
+                </p>
+          </div>
         </div>
+
   <footer class="container-fluid bg-dark">
     <div id="footer-details" class="row">
         <div class="col-sm-4 footer-item">
