@@ -30,7 +30,7 @@ Main section - split into grid style, one side to contain information other to d
 
 -----------------SKELETON-------------
 
-Home page - About the Company and the surfaces they offer.
+Home page - About the Company and the services they offer.
 
 Job Page - List of jobs that they carry out with prices that they charge. (Possibly add drop down list when user hovers over job page).
 
